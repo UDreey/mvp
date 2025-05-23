@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpdaud648yrxm"
-path="res://.godot/imported/cuspidor 0.png-7d0aeb5f23bd1c07d4391e8edb63673f.ctex"
+uid="uid://do8rxkjlefa0f"
+path="res://.godot/imported/cuspidor 2.png-c896bdf06bf89eb1d752d5fcd60bd515.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cuspidor/cuspidor 0.png"
-dest_files=["res://.godot/imported/cuspidor 0.png-7d0aeb5f23bd1c07d4391e8edb63673f.ctex"]
+source_file="res://Assets/cuspidor/cuspidor 2.png"
+dest_files=["res://.godot/imported/cuspidor 2.png-c896bdf06bf89eb1d752d5fcd60bd515.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpap7nbagxmtl"
-path="res://.godot/imported/cuspidor 5.png-06ff774de077f92269805881cb5fe60e.ctex"
+path="res://.godot/imported/cuspidor 5.png-e9fd258c8bc21307e458a28b1c1734fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cuspidor/cuspidor 5.png"
-dest_files=["res://.godot/imported/cuspidor 5.png-06ff774de077f92269805881cb5fe60e.ctex"]
+source_file="res://Assets/cuspidor/cuspidor 5.png"
+dest_files=["res://.godot/imported/cuspidor 5.png-e9fd258c8bc21307e458a28b1c1734fd.ctex"]
 
 [params]
 
