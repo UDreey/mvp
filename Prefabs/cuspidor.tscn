@@ -1,0 +1,92 @@
+[gd_scene load_steps=20 format=3 uid="uid://btp36e6cqsgkp"]
+
+[ext_resource type="Texture2D" uid="uid://dpdaud648yrxm" path="res://Assets/cuspidor/cuspidor 0.png" id="1_v61dw"]
+[ext_resource type="Texture2D" uid="uid://df7gohgn4wil5" path="res://Assets/cuspidor/cuspidor 1.png" id="2_6lwqk"]
+[ext_resource type="Texture2D" uid="uid://do8rxkjlefa0f" path="res://Assets/cuspidor/cuspidor 2.png" id="3_jspca"]
+[ext_resource type="Texture2D" uid="uid://ccj4mmcep6fvh" path="res://Assets/cuspidor/cuspidor 3.png" id="4_f0g0c"]
+[ext_resource type="Texture2D" uid="uid://drayrkr7brogh" path="res://Assets/cuspidor/cuspidor 4.png" id="5_yfw0d"]
+[ext_resource type="Texture2D" uid="uid://bpap7nbagxmtl" path="res://Assets/cuspidor/cuspidor 5.png" id="6_7neha"]
+[ext_resource type="Texture2D" uid="uid://b1gxb23fwinyw" path="res://Assets/cuspidor/cuspidor 6.png" id="7_6bibc"]
+[ext_resource type="Texture2D" uid="uid://w6xflmdoafky" path="res://Assets/cuspidor/cuspidor 7.png" id="8_d4cgq"]
+[ext_resource type="Texture2D" uid="uid://yxjvp8p1rl1n" path="res://Assets/cuspidor/cuspidor 8.png" id="9_08gt3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w0qac"]
+atlas = ExtResource("1_v61dw")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qa26o"]
+atlas = ExtResource("2_6lwqk")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hu5wk"]
+atlas = ExtResource("3_jspca")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mmag5"]
+atlas = ExtResource("4_f0g0c")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3i87y"]
+atlas = ExtResource("5_yfw0d")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qbpgg"]
+atlas = ExtResource("6_7neha")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hlf5m"]
+atlas = ExtResource("7_6bibc")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wc02i"]
+atlas = ExtResource("8_d4cgq")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jf2qc"]
+atlas = ExtResource("9_08gt3")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bmufj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w0qac")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qa26o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hu5wk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mmag5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3i87y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qbpgg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hlf5m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wc02i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jf2qc")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 6.0
+}]
+
+[node name="Cuspidor" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -32)
+scale = Vector2(0.6875, 0.828125)
+sprite_frames = SubResource("SpriteFrames_bmufj")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.899801

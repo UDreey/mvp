@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="mvp"
+run/main_scene="uid://6ssipkmc2c5q"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
